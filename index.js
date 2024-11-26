@@ -5,7 +5,7 @@ const PORT = 5000;
 const app = express();
 
 app.get('/', async(req, res)=>{
-    res.send("i am called hello 2 i am ruuning and updated ....");
+    res.send("server is updated haha..");
 });
 app.get('/health', async(req, res)=>{
     res.send("good health hahaha ....");
